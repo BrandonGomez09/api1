@@ -1,5 +1,5 @@
 import { ConsumeMessage } from 'amqplib';
-import WebSocket from 'ws'; // Importa WebSocket client
+import WebSocket from 'ws';
 import { connectRabbitMQ } from '../../common/rabbitmq';
 import { SensorData } from '../domain/SensorData';
 import { SensorRepository } from '../domain/SensorRepository';
